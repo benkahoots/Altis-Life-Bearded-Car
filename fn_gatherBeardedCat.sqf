@@ -15,7 +15,6 @@ titleFadeOut 5;
 sleep 5;
 if(([true,"methu",1] call life_fnc_handleInv)) then
 {
-playSound "bag"; // this only if you want the sound for the bag when you gather it 
 titleText["Gathered Bearded Cat Egg","PLAIN"];
 };
 };
